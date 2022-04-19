@@ -1,2 +1,1 @@
-# jga4.com/blog
-jekyll based 
+https://jga4.com/blog

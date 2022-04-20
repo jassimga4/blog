@@ -5,5 +5,6 @@ Using youtube player by nathancy
 https://github.com/nathancy/jekyll-embed-video#full-example
 
 
-PP - personal projects
-
+Category -
+pp - personal projects
+pop - review

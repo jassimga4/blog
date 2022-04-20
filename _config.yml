@@ -17,15 +17,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# USE liquid HTML to view html files
 
-title: Jassim Abdul Gafoor
+title: Jassim Abdul Gafoor's Blog
 email: jgafoor@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog. Projects. Memory Dump. Other Stuff.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jga4.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jga4_
+twitter_username: jassimga4
 github_username:  JassimGafoor
+
+# Non-default settings
+# Found in footer
+author: Jassim Abdul Gafoor
+instagram_username: jassimga4
+linkedin_username: jassimga4
+
+# New settings I added
+# Copyright symbol added automatically type anything below to view at bottom of page. 
+# Year added automatically
+# Check footer.html for more
+copyright: "Jassim Abdul Gafoor"
+title-logo: images/logo.png
 
 # Build settings
 # removed theme minima custom theme now

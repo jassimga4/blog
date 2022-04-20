@@ -7,11 +7,4 @@ youtubeId: e9kUsncFyzQ
 ---
 This is my first blog post ft. MagicaVoxel project.
 
-
-
 {% include youtubePlayer.html id=page.youtubeId %}
-
-
-
-
-

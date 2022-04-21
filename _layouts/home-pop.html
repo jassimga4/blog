@@ -30,7 +30,28 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
+  <h3>Games</h3>
+  <ul>
+    {% for game in site.data.games %}
+      <li>
+        
+          {{ game.name }} - {{game.rating}}
+        
+      </li>
+    {% endfor %}
+    </ul>
+    <h3>Movies</h3>
+    <ul>
+    {% for movie in site.data.movies %}
+      <li>
+        
+          {{ movie.name }} - {{movie.rating}}
+        
+      </li>
+    {% endfor %}
+    </ul>
+    
+
 
 </div>

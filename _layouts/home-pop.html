@@ -32,26 +32,32 @@ layout: default
 
   {%- endif -%}
   <h3>Games</h3>
-  <ul>
+  <table class="sortable">
+    <tr>
+      <th>NAME</th>
+      <th>RATING</th>
+    </tr>
     {% for game in site.data.games %}
-      <li>
-        
-          {{ game.name }} - {{game.rating}}
-        
-      </li>
+    <tr>
+      <td>{{ game.name }}</td>
+      <td>{{game.rating}}</td>
+    </tr>
     {% endfor %}
-    </ul>
-    <h3>Movies</h3>
-    <ul>
-    {% for movie in site.data.movies %}
-      <li>
-        
-          {{ movie.name }} - {{movie.rating}}
-        
-      </li>
-    {% endfor %}
-    </ul>
-    
+  </table>
+
+  <h3>Movies</h3>
+    <table class="sortable">
+      <tr>
+        <th>NAME</th>
+        <th>RATING</th>
+      </tr>
+      {% for movie in site.data.movies %}
+      <tr>
+        <td>{{ movie.name }}</td>
+        <td>{{movie.rating}}</td>
+      </tr>
+      {% endfor %}
+    </table>
 
 
 </div>

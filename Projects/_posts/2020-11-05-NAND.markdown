@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "3-input NAND Layout"
+date:   2020-11-05 03:02:42 -0700
+category: pp
+youtubeId: 
+ftimage: /assets/images/prj_3NAND.png
+---
+
+3-input NAND is laid out as below in CMOS. Note the PMOS are connected in parallel and the NMOS in series for NAND operation.
+
+![3NAND]({{ "/assets/images/prj_3NAND.png" | relative_url}})
+
+Built-in Cadence. Not an optimal use of space but it passed the Design Rule Check (DRC).
+
+

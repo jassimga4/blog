@@ -1,0 +1,25 @@
+.feed-card{
+    display: grid;
+    grid-template-columns: 110px 1fr 110px 1fr;
+    grid-template-rows: 110px;
+    column-gap: 10px;
+    margin-top: 12px;
+    border-top: lightgray;
+    border-width: 2px;
+    border-top-style: solid;
+    padding-top: 10px;
+}
+
+.card-content{
+    display: grid;
+}
+
+.card-content h3{
+
+}
+
+.blog-roll-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

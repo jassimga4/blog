@@ -42,7 +42,7 @@ linkedin_username: jassimga4
 copyright: "Jassim Abdul Gafoor"
 permalink: /:title/
 
-title-logo: /images/logo.png
+title-logo: /assets/images/logo.png
 
 # Build settings
 # removed theme minima custom theme now

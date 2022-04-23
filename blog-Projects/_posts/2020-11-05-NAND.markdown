@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "3NAND"
+date:   2020-11-05 03:02:42 -0700
+category: pp
+youtubeId: 
+---
+
+![3NAND](/assets/images/prj_3NAND.png)

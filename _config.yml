@@ -40,7 +40,7 @@ linkedin_username: jassimga4
 # Year added automatically
 # Check footer.html for more
 copyright: "Jassim Abdul Gafoor"
-
+permalink: /:title/
 
 title-logo: /images/logo.png
 

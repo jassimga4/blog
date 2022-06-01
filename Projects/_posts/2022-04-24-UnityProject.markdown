@@ -11,7 +11,7 @@ I have decided to work on this Cross-Platform Game project. This is intended to 
 
 ## Design Decisions
 
-The game will be made using local networking as it 
+The game will be made using local networking as it is easy to implement and free.
 
 Since this game is intended to be cross-play, the first obstacle is a Unified-Input system. The challenge is to ensure that all players have similar competitive experience across different platforms. This is my proposed solution of implementation.
 

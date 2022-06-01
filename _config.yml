@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jga4.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jassimga4
-github_username:  JassimGafoor
+github_username:  jassimga4
 
 # Non-default settings
 # Found in footer
